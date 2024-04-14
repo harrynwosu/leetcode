@@ -8,7 +8,7 @@ class TreeNode:
 class Solution:
     def sumEvenGrandparent(self, root: TreeNode) -> int:
         '''
-        Perform dfs on the tree passing the parent and grandparent values along with each node down the tree
+        Perform dfs on the tree passing the parent and grandparent values along with each node ~down the tree
         '''
         self.sum = 0
 
